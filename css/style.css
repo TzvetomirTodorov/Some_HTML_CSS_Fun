@@ -1,0 +1,325 @@
+/*
+/**********************
+=miscellaneous
+***********************
+
+.container_24 {
+	margin-top: 10px;
+}
+
+blockquote {
+	position: relative;
+}
+
+blockquote, blockquote p {
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	color: #0e0e0e;
+}
+
+p {
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+}
+
+h1, h3 {
+	letter-spacing: -1px;
+}
+
+h3 {
+	font-size: 26px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 20px;		
+	margin-bottom: 15px;
+	line-height: 1em;
+}
+
+a {
+	color: #7e7e7e;
+	text-decoration: none;
+}
+
+li {
+	margin-left: 24px;
+}
+
+a:hover, .selected {
+	color: black;
+}
+
+.button {
+	background: #242324;
+	padding: 6px;
+	color: white;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background: black;
+	color:white;
+}
+
+/**********************
+=header
+***********************
+
+header {
+	overflow: hidden;
+}
+
+header h1 {
+	text-indent: -9999px;
+	float: left;
+	margin-bottom: 0px;
+}
+
+/*header h1:after {
+	clear: both;
+	display: block;
+	content: ' ';
+	height: 1%;
+}
+
+header h1 a {
+	background: url(../img/logo_3.jpg) no-repeat;
+	width: 180px;
+	height: 62px;
+	float: left;
+	margin: 10px 10px 22px;
+}
+
+/**********************
+=nav
+***********************
+
+nav {
+	float: right;
+	padding-top: 12px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+*********************
+=banner
+**********************
+
+.banner {
+  background: url(../img/car_banner.jpg);
+  width: 1080px;
+  height: 300px;
+  clear: both;
+  position:relative;
+}
+
+.banner h2 {
+	color: white;
+	font-size: 28px;
+	width: 400px;
+	font-weight: normal;
+	position: absolute;
+	bottom: -10px;
+	left: 8px;
+	padding: 0px 8px;
+	background: rgba(0,0,0,.5);	
+}
+
+.callout {
+	background: black;
+	height: 231px;
+}
+
+/**********************
+=main
+***********************
+
+.main {
+	margin-top: 20px;
+}
+
+.main blockquote p {
+	padding-left: 30px;
+}
+
+.main blockquote p:before,
+.main blockquote p:after {
+	font-size:40px;
+	color: #bfbfbf;
+	font-style: italic;
+}
+
+.main blockquote p:first-child:before {
+	content: '“';
+	position: absolute;
+	top: 5px;
+	left: 0px;
+}
+
+.main blockquote p:last-child:after {
+	content: '”';
+	float: right;
+	position: absolute;
+	bottom: -7px;
+	right: 0px;
+}
+
+/**********************
+=footer
+***********************
+
+footer {
+	clear:both;
+	border-top: 1px solid #d1d1d1;
+	padding-top: 18px;
+}
+
+/**********************
+=work
+***********************
+.work h2, 
+.work h4 {
+	font-size: 26px;
+	margin-bottom: 0px;
+	font-weight: normal;
+}
+
+.work img {
+	margin-bottom: 20px;
+}
+
+.work h4 {
+	color: #787878;
+	margin-top: -10px;
+	line-height: 1.2em;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 33px;
+	margin-bottom: 30px;
+}*/
+
+
+/**********************
+=miscellaneous
+***********************/
+
+
+h1 {
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/**********************
+=header
+***********************/
+
+/**********************
+=nav
+***********************/
+
+nav {
+	padding-top: 15px;
+	padding-left: 225px;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+#mysearch{
+	margin-left: 75px;
+}
+/**********************
+=banner
+***********************/
+
+.banner {
+	background: url(../img/car_banner.jpg) no-repeat;
+	width:960px;
+	height:300px;
+	position: relative;
+}
+
+
+.box {
+	text-align: left;
+	font-size: .80em;
+	position: absolute;
+	background: white;
+	height: 200px;
+	width: 300px;
+	margin-top: 75px;
+	margin-left: 250px;
+}
+
+/**********************
+=main
+***********************/
+
+.collection_1 li{
+	text-align: left;
+	display: inline-block;
+}
+
+.collection_1 h4{
+	text-align: left;
+	font-size: .80em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: auto;
+}
+
+.collection_1 h4:nth-child(1){
+	font-size: 1.25em;
+}
+
+.collection_1 p{
+	text-align: left;
+	font-size: 1em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.collection_1 img{
+
+	padding-left: 45px;
+	background: #D8D8D8;
+	box-shadow: 0px 0px 30px #D8D8D8
+}
+
+.collection_2 li{
+	text-align: left;
+	display: inline-block;
+}
+
+.collection_2 h4{
+	text-align: left;
+	font-size: 1em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: auto;
+}
+
+.collection_2 h4:nth-child(1){
+	font-size: 1.25em;
+}
+
+.collection_2 img {
+	background: #D8D8D8;
+	padding-left: 50px;
+}
