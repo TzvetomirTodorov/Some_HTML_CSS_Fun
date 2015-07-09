@@ -262,6 +262,7 @@ a:hover {
 	width:960px;
 	height:300px;
 	position: relative;
+	padding-bottom: 10px;
 }
 
 
@@ -271,9 +272,30 @@ a:hover {
 	position: absolute;
 	background: white;
 	height: 200px;
-	width: 300px;
+	width: 225px;
 	margin-top: 75px;
 	margin-left: 250px;
+	padding-bottom: 10px;
+}
+
+.box h4 {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 1.25em;
+	color: #B0B0B0; 
+}
+
+.box h3 {
+	padding-left: 10px;
+	color: #E80000;
+	font-size: 1.5em;
+	top:10px;
+}
+
+.box p {
+	padding-left: 10px;
+	position: relative;
+	bottom: 15px;
 }
 
 /**********************
@@ -302,6 +324,7 @@ a:hover {
 	font-size: 1em;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	color: #606060;
 }
 
 .collection_1 img{
@@ -337,4 +360,12 @@ a:hover {
 .collection_2 img {
 	background: #D8D8D8;
 	padding-left: 65px;
+}
+
+.collection_2 p{
+	text-align: left;
+	font-size: 1em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #606060;
 }
