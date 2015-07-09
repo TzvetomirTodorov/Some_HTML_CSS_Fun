@@ -242,7 +242,7 @@ nav a{
 }
 
 #mysearch{
-	margin-left: 75px;
+	margin-left: 84px;
 }
 
 a {
@@ -250,6 +250,21 @@ a {
 }
 a:hover {
 	color: black;
+}
+
+/*#magnify {
+	width: 28px;
+	height: 26px;
+	float: right;
+}*/
+
+nav li:nth-child(4){
+	margin:auto;
+	padding-right: 5px;
+}
+
+.arrows {
+	float: right;
 }
 
 
@@ -302,6 +317,7 @@ a:hover {
 =main
 ***********************/
 
+
 .collection_1 li{
 	text-align: left;
 	display: inline-block;
@@ -346,7 +362,7 @@ a:hover {
 
 .collection_2 h4{
 	text-align: left;
-	font-size: 1em;
+	font-size: .80em;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin: auto;
