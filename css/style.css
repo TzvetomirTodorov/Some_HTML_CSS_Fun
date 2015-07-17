@@ -419,6 +419,7 @@ nav li:nth-child(4){
 .collection_2 img {
 	background: #D8D8D8;
 	padding-left: 65px;
+	box-shadow: 0px 0px 30px #D8D8D8;
 }
 
 .collection_2 p{
