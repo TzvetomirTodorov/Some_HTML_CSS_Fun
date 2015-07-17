@@ -219,6 +219,26 @@ a {
 	text-decoration: none;
 }
 
+body {
+	padding: 10px 0;
+}
+
+#search_this {
+	color: #E3E3E3;
+}
+
+#page_logo {
+	color: black;
+	padding-top: 5px;
+}
+
+.container_12>header>h1 {
+	margin-top: 5px;
+}
+
+.container_12>header>ul {
+	margin-top: 2px;
+}
 
 /**********************
 =header
@@ -252,6 +272,25 @@ a:hover {
 	color: black;
 }
 
+#nav_top_of_page {
+	margin-top: 5px;
+	border-top: #E3E3E3;
+	border-style: dotted;
+}
+
+.collection_1 {
+	padding-top: 15px;
+	margin-top: 40px;
+	border-top: #E3E3E3;
+	border-style: dotted;
+}
+
+.collection_2 {
+	padding-top: 15px;
+	margin-top: 200px;
+	border-top: #E3E3E3;
+	border-style: dotted;
+}
 /*#magnify {
 	width: 28px;
 	height: 26px;
@@ -291,20 +330,22 @@ nav li:nth-child(4){
 	margin-top: 75px;
 	margin-left: 250px;
 	padding-bottom: 10px;
+	font-family: sans-serif;
 }
 
 .box h4 {
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-left: 10px;
 	font-size: 1.25em;
-	color: #B0B0B0; 
+	color: #B0B0B0;
+	margin-bottom: 5px;
 }
 
 .box h3 {
 	padding-left: 10px;
 	color: #E80000;
 	font-size: 1.5em;
-	top:10px;
+	padding-bottom: 3px;
 }
 
 .box p {
@@ -337,10 +378,11 @@ nav li:nth-child(4){
 
 .collection_1 p{
 	text-align: left;
-	font-size: 1em;
+	font-size: .9em;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	color: #606060;
+	font-family: sans-serif;
 }
 
 .collection_1 img{
@@ -380,8 +422,9 @@ nav li:nth-child(4){
 
 .collection_2 p{
 	text-align: left;
-	font-size: 1em;
+	font-size: .9em;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	color: #606060;
+	font-family: sans-serif;
 }
