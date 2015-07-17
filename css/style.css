@@ -322,7 +322,7 @@ nav li:nth-child(4){
 
 .box {
 	text-align: left;
-	font-size: .80em;
+	font-size: .85em;
 	position: absolute;
 	background: white;
 	height: 200px;
@@ -352,6 +352,7 @@ nav li:nth-child(4){
 	padding-left: 10px;
 	position: relative;
 	bottom: 15px;
+	color: #191919;
 }
 
 /**********************
@@ -381,7 +382,7 @@ nav li:nth-child(4){
 	font-size: .9em;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	color: #606060;
+	color: #191919;
 	font-family: sans-serif;
 }
 
@@ -425,6 +426,6 @@ nav li:nth-child(4){
 	font-size: .9em;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	color: #606060;
+	color: #191919;
 	font-family: sans-serif;
 }
